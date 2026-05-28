@@ -1,0 +1,32 @@
+aid: randomdog
+name: RandomDog
+description: "Random pictures of dogs"
+url: https://random.dog/woof.json
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Animals"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Animals
+  - Public APIs
+apis:
+  - name: RandomDog
+    description: "Random pictures of dogs"
+    humanURL: https://random.dog/woof.json
+    baseURL: https://random.dog/woof.json
+    tags:
+      - Animals
+    properties:
+      - type: Documentation
+        url: https://random.dog/woof.json
+common:
+  - type: Website
+    url: https://random.dog/woof.json
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
