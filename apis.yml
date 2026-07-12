@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://random.dog/woof.json
 common:
+  - type: DomainSecurity
+    url: security/randomdog-domain-security.yml
   - type: Website
     url: https://random.dog/woof.json
   - type: PublicAPIsListing
