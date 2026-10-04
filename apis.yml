@@ -39,7 +39,6 @@ apis:
   - name: RandomDog
     description: "Random pictures of dogs"
     humanURL: https://random.dog/woof.json
-    baseURL: https://random.dog/woof.json
     tags:
       - Animals
     properties:
